@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shoe Express</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="fixed top-0 w-full z-50 font-header">
+	<nav id="special_offer" class="bg-primary-light w-full h-12">
+		okok
+	</nav>
+
+	<nav class="bg-primary-dark grid grid-cols-3 gap-4 px-28 py-2 w-full align-middle items-center">
+		<div class="flex gap-2 h-fit">
+			<label>
+				<input class="rounded-2xl px-3 py-1 transition duration-300 ease-in-out hover:border-blue-700 hover:shadow-md"
+					   type="email" placeholder="Type here to Search"/>
+			</label>
+			<button class="bg-primary-dark text-white font-bold px-3 rounded-2xl py-1 transition duration-300 ease-in-out hover:bg-primary-medium">
+				Search
+			</button>
+		</div>
+
+		<div class="justify-self-center">
+			<img class="rounded-full w-24" src="static/icon.png" alt="">
+		</div>
+
+		<div class="flex gap-4 justify-self-end">
+			<a href="/"
+			   class="flex gap-2 align-middle items-center transition duration-300 ease-in-out hover:text-blue-900">
+				<svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="Cart">
+					<path d="M14 36c-2.21 0-3.98 1.79-3.98 4s1.77 4 3.98 4 4-1.79 4-4-1.79-4-4-4zM2 4v4h4l7.19 15.17-2.7 4.9c-.31.58-.49 1.23-.49 1.93 0 2.21 1.79 4 4 4h24v-4H14.85c-.28 0-.5-.22-.5-.5 0-.09.02-.17.06-.24L16.2 26h14.9c1.5 0 2.81-.83 3.5-2.06l7.15-12.98c.16-.28.25-.61.25-.96a2 2 0 0 0-2-2H10.43l-1.9-4H2zm32 32c-2.21 0-3.98 1.79-3.98 4s1.77 4 3.98 4 4-1.79 4-4-1.79-4-4-4z"
+						  fill="#fffcfc" class="color000000 svgShape"></path>
+					<path fill="none" d="M0 0h48v48H0z"></path>
+				</svg>
+				<h1 class=" font-bold  text-white">Add to Cart</h1>
+			</a>
+		</div>
+	</nav>
+
+	<nav class="font-bold pt-2 rounded-b-xl px-28 text-white flex text-xl gap-4 justify-around">
+		<a href="index.html" class="bg-primary-dark h-full w-full py-1 rounded-full text-center transition duration-300 ease-in-out hover:bg-primary-medium">Home</a>
+		<a href="special_collection.html" class="bg-primary-dark h-full w-full py-1 rounded-full text-center transition duration-300 ease-in-out hover:bg-primary-medium">Special Collection</a>
+		<a href="footware.html" class="bg-primary-dark h-full w-full py-1 rounded-full text-center transition duration-300 ease-in-out hover:bg-primary-medium">Footware</a>
+	</nav>
+</header>
+
+<main class="flex gap-4 h-full mt-56 font-body">
+	<section class="mx-80 grid grid-cols-2 gap-4">
+		<div class="transition-all duration-300 rounded-t-2xl items-center flex flex-col gap-3">
+			<img class="rounded-2xl h-[90%]" src="assets/images/adidas_82/White.png">
+			<div class="grid grid-cols-3 gap-2 w-full">
+				<img class="rounded-2xl h-full" src="assets/images/adidas_82/Black.png">
+				<img class="rounded-2xl h-full" src="assets/images/adidas_82/Brown.png">
+				<img class="rounded-2xl h-full" src="assets/images/adidas_82/White.png">
+			</div>
+			<div class="flex gap-2">
+				<span class="w-8 h-8 rounded-full bg-black border-2 border-secondary"></span>
+				<span class="w-8 h-8 rounded-full bg-primary-dark border-2 border-secondary"></span>
+				<span class="w-8 h-8 rounded-full bg-white border-2 border-secondary"></span>
+			</div>
+		</div>
+
+		<div class="flex flex-col gap-2">
+			<h1 class="font-bold w-fit text-primary-dark text-5xl">Adidas 82</h1>
+			<h1 class="font-header"> Discount Percentage: 17%</h1>
+			<h1 class="font-header from-black w-fit text-primary-dark text-5xl">$200</h1>
+			<h3 class="text-primary-dark font-bold text-lg mt-2">Shoe Size</h3>
+			<div id="size_of_shoes" class="flex gap-3">
+				<span class="h-8 w-8 border-secondary border rounded-full flex justify-center items-center">7</span>
+				<span class="h-8 w-8 border-secondary border rounded-full flex justify-center items-center">8</span>
+				<span class="h-8 w-8 border-secondary border rounded-full flex justify-center items-center">9</span>
+				<span class="h-8 w-8 border-secondary border rounded-full flex justify-center items-center">10</span>
+				<span class="h-8 w-8 border-secondary border rounded-full flex justify-center items-center">11</span>
+			</div>
+			<div class="mt-4 flex flex-col">
+				<h1 class="text-2xl font-bold">
+					SHELL-TOE SHOES WITH A FOCUS ON THE DETAILS.
+				</h1>
+				<p class="font-light">
+					When only the most authentic will do, you grab your adidas Superstar 82 Shoes. A tribute to the basketball sneaker turned style icon, they honor a version from the 1980s. The retro shape and details look like they just stepped out of the past, from the signature shell toe to the serrated 3-Stripes and heel tab. Premium leather elevates your style, no matter what you pair them with.
+				</p>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<section class="mt-8 mx-24">
+	<h1 class="text-3xl from-black text-primary-dark my-6">More Popular Products</h1>
+	<div class="grid-cols-4 grid gap-4">
+		<a href="adidas_82.html" class="flex-col flex gap-2 bg-neutral rounded-xl p-2 hover:scale-105 hover:bg-zinc-200 transition-all duration-300">
+			<div class="flex gap-2">
+				<img src="assets/images/adidas_82/White.png" class="rounded-xl w-[85%] h-44" alt="">
+				<div class="flex flex-col gap-2">
+					<span class="w-8 h-8 rounded-full bg-black border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-primary-dark border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-white border-2 border-secondary"></span>
+				</div>
+			</div>
+			<div class="flex flex-col gap-2">
+				<h1 class="font-bold w-fit rounded-full bg-primary-light px-4 py-1 text-primary-dark">Sneakers</h1>
+				<h1 class="font-bold w-fit text-primary-dark text-3xl">Adidas 82</h1>
+				<h1 class="font-header">$250</h1>
+				<h1 class="font-header text-xl">$200</h1>
+			</div>
+		</a>
+
+
+		<a href="adidas_gazelle.html" class="flex-col flex gap-2 bg-neutral rounded-xl p-2 hover:scale-105 hover:bg-zinc-200 transition-all duration-300">
+			<div class="flex gap-2">
+				<img src="assets/images/adidas_gazelle/Dark%20Blue.png" class="rounded-xl h-44 w-[85%]" alt="">
+				<div class="flex flex-col gap-2">
+					<span class="w-8 h-8 rounded-full bg-amber-300 border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-blue-800 border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-green-800 border-2 border-secondary"></span>
+				</div>
+			</div>
+			<div class="flex flex-col gap-2">
+				<h1 class="font-bold w-fit rounded-full bg-primary-light px-4 py-1 text-primary-dark">Sneakers</h1>
+				<h1 class="font-bold w-fit text-primary-dark text-3xl">Adidas Gazelle</h1>
+				<h1 class="font-header">$250</h1>
+				<h1 class="font-header text-xl">$200</h1>
+			</div>
+		</a>
+
+
+		<a href="new_balance_480.html" class="flex-col flex gap-2 bg-neutral rounded-xl p-2 hover:scale-105 hover:bg-zinc-200 transition-all duration-300">
+			<div class="flex gap-2">
+				<img src="assets/images/new_balance_480/Black.png" class="rounded-xl h-44 w-[85%]" alt="">
+				<div class="flex flex-col gap-2">
+					<span class="w-8 h-8 rounded-full bg-black border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-primary-dark border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-amber-300 border-2 border-secondary"></span>
+				</div>
+			</div>
+			<div class="flex flex-col gap-2">
+				<h1 class="font-bold w-fit rounded-full bg-primary-light px-4 py-1 text-primary-dark">Sneakers</h1>
+				<h1 class="font-bold w-fit text-primary-dark text-3xl">New Balance 480</h1>
+				<h1 class="font-header">$250</h1>
+				<h1 class="font-header text-xl">$200</h1>
+			</div>
+		</a>
+
+		<a href="new_balance_550.html" class="flex-col flex gap-2 bg-neutral rounded-xl p-2 hover:scale-105 hover:bg-zinc-200 transition-all duration-300">
+			<div class="flex gap-2">
+				<img src="assets/images/new_balance_550/Light%20Blue.png" class="rounded-xl h-44 w-[85%]" alt="">
+				<div class="flex flex-col gap-2">
+					<span class="w-8 h-8 rounded-full bg-green-800 border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-zinc-400 border-2 border-secondary"></span>
+					<span class="w-8 h-8 rounded-full bg-blue-400 border-2 border-secondary"></span>
+				</div>
+			</div>
+			<div class="flex flex-col gap-2">
+				<h1 class="font-bold w-fit rounded-full bg-primary-light px-4 py-1 text-primary-dark">Sneakers</h1>
+				<h1 class="font-bold w-fit text-primary-dark text-3xl">New Balance 550</h1>
+				<h1 class="font-header">$250</h1>
+				<h1 class="font-header text-xl">$200</h1>
+			</div>
+		</a>
+	</div>
+
+</section>
+
+
+<footer class="w-full bg-primary-dark grid grid-cols-3 px-48 py-16 text-white font-bold font-body z-50 mt-12">
+	<section class="flex-col flex gap-3 self-center">
+		<a href="#">Wishing List</a>
+		<a href="#">About Us</a>
+	</section>
+
+	<section class="flex-col flex gap-3 justify-center items-center align-middle place-items-center">
+		<div class="flex gap-3">
+			<label>
+				<input class="px-4 py-1 rounded-2xl">
+			</label>
+			<button class="bg-primary-medium  px-4 py-1 rounded-2xl">Search</button>
+		</div>
+		<div class="flex gap-4">
+			<a href="#">Facebook</a>
+			<a href="#">Instagram</a>
+			<a href="#">Twitter</a>
+		</div>
+	</section>
+
+	<section class="flex-col flex gap-3 justify-end items-end">
+		<a href="index.html">Home</a>
+		<a href="special_collection.html">Special Collection</a>
+		<a href="footware.html">Footware</a>
+	</section>
+</footer>
+
+</body>
+</html>
